@@ -76,10 +76,9 @@ The official 8-class category task is used; no benign/malignant remapping is imp
 
 Duplicate-grouped image-level folds may still include different images from the same patient in both training and validation. Performance from one public source may not transfer to another hospital or acquisition workflow. The dataset is small and imbalanced, and the masks/labels encode annotation decisions. No result from this demo proves clinical validity, diagnostic utility, or patient-level performance.
 
-## Adapting to a Gemelli/IOTA-like dataset
+## Adapting to a IOTA-like dataset
 
-Keep the feature extraction and fold-local modeling code, then add a new loader that maps local image/mask files to an approved, de-identified study table. Use a stable patient key only if the data governance process permits it; pass that key to a group-aware splitter and verify that no patient crosses folds. Define outcomes from the study protocol and reference standard, preserve missingness and acquisition metadata, and record physical spacing only when it is supplied by the source. Validate the extraction settings and label semantics with the clinical research team before running the same comparison. The demo contains no Gemelli or IOTA patient data.
-
+Keep the feature extraction and fold-local modeling code, then add a new loader that maps local image/mask files to an approved, de-identified study table. Use a stable patient key only if the data governance process permits it; pass that key to a group-aware splitter and verify that no patient crosses folds. Define outcomes from the study protocol and reference standard, preserve missingness and acquisition metadata, and record physical spacing only when it is supplied by the source. Validate the extraction settings and label semantics with the clinical research team before running the same comparison. 
 ## Five-minute demo sequence
 
 1. Open the notebook and read the research question and dataset provenance (about 45 seconds).
