@@ -350,7 +350,7 @@ README must explain:
 - what files are produced;
 - methodological safeguards;
 - known limitations;
-- how this pipeline could later be adapted to a Gemelli/IOTA-like dataset.
+- how this pipeline could later be adapted to another clinical dataset.
 
 ==================================================
 18. COMPUTE BUDGET
