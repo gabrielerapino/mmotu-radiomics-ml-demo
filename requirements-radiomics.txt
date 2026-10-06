@@ -1,0 +1,2 @@
+# Optional standalone PyRadiomics install, pinned to the official 3.1.0 source tag commit.
+PyRadiomics @ git+https://github.com/Radiomics/pyradiomics.git@b0f1dcddc15986b3079423e42e0588258ff54fe3

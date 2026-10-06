@@ -1,0 +1,12 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+Pillow>=10.0
+matplotlib>=3.8
+xgboost==1.7.6
+PyRadiomics @ git+https://github.com/Radiomics/pyradiomics.git@b0f1dcddc15986b3079423e42e0588258ff54fe3
+nbformat>=5.9
+nbclient>=0.10
+ipykernel>=6.29
+pytest>=8.0
+gdown>=5.2

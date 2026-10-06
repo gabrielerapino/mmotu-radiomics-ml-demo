@@ -1,0 +1,30 @@
+# Downloaded MMOTU data are fetched with download_data.py and are not redistributed here.
+data/
+
+# Local Python environments and generated files
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+
+# Detailed per-image data, file inventories and individual predictions
+outputs/data_audit.json
+outputs/duplicate_groups.csv
+outputs/radiomics_features.csv
+outputs/duplicate_safe_validation.json
+outputs/metrics.json
+outputs/selected_features_image_level_original.csv
+
+# Ignore generated outputs by default; selectively retain aggregate report artifacts below.
+outputs/*
+!outputs/demo_report.html
+!outputs/duplicate_leakage_audit.json
+!outputs/duplicate_safe_model_comparison.csv
+!outputs/radiomics_config.json
+!outputs/selected_features_by_fold.csv
+!outputs/selected_features_duplicate_safe_by_fold.csv
+!outputs/figures/
+outputs/figures/*
+!outputs/figures/*.png
